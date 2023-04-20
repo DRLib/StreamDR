@@ -1,0 +1,22 @@
+exp_params:
+  dataset: 'HAR'
+  input_dims: 561
+  latent_dim: 2
+  stream_rate: 1
+  window_size: 5000
+  vis_iter: 100
+  save_iter: 100000
+  make_animation: False
+  check_point_path: None
+
+
+method_params:
+  n_neighbors: 15
+  preserve_weight: 10
+  candidate_coefficient: 10
+  global_pattern_change_thresh: 50
+  initializing_epochs: 200
+  updating_epochs: 50
+  batch_size: 1024
+  LR: 0.001
+  temperature: 0.15
