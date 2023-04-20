@@ -55,4 +55,3 @@ python stream_main.py --configs configs/StreamDR.yaml
 The following is a comparison of the results of different dimensionality reduction methods for streaming high-dimensional data on HAR dataset.
 
 ![HAR.jpg](images%2FHAR.jpg)
-[comment]: <> "## Cite"
