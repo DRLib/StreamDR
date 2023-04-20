@@ -3,12 +3,8 @@
 
 ## Introduction
 StreamDR is a novel multi-level parallelization dimensionality reduction method for streaming high-dimensional data visualization, which consists of three modules: new data embedding, embedding function updating and embedding updating. In this approach, the above modules were re-designed to support better parallelization, thus alleviating the latency caused by module waits in the serial setup. Subsequently, a series of new designs and improvements for the three modules were proposed, such as a fast and stable incremental embedding function updating method and an efficient hybrid embedding updating strategy, to achieve fast, high-quality and temporal-stable streaming high-dimensional data visualization.
-<div align=center><img src="images/framework_overview.png" width=" "></div>
-<div align=center><img src="images/framework_modules.png" width=" "></div>
+![framework.png](images%2Fframework.png)
 
-[//]: # (![framework_overview.jpg]&#40;images%2Fframework_overview.png&#41;)
-
-[//]: # (![framework_modules.jpg]&#40;images%2Fframework_modules.png&#41;)
 ## Environment setup
 
 This project was based on `python 3.7 and pytorch 1.7.0`. See `requirements.txt` for all prerequisites, and you can also install them using the following command.
